@@ -1,5 +1,6 @@
-package stopwatch;
+package stopWatch;
 /**
+ * Append chars to a String.
  * 
  * @author Dacharat Pankong
  *
@@ -7,6 +8,8 @@ package stopwatch;
 public class AppendToStringBuilder implements Runnable{
 	
 		private int count;
+		
+		private String result;
 
 		/**
 		 * 
@@ -30,9 +33,8 @@ public class AppendToStringBuilder implements Runnable{
 				builder = builder.append(CHAR);
 			}
 			// now create a String from the result, to be compatible with task 1.
-			String result = builder.toString();
-			System.out.println("final string length = " + result.length());
-
+			result = builder.toString();
+			
 		}
 
 		/**
