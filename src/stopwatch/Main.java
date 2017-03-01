@@ -1,6 +1,7 @@
 package stopwatch;
 /**
- * 
+ * Main class to test speed by using other data types.
+ *
  * @author Dacharat Pankong
  *
  */
