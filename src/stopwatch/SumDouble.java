@@ -1,6 +1,7 @@
-package stopwatch;
+package stopWatch;
 
 /**
+ * Add Double in array. 
  * 
  * @author Dacharat Pankong
  *
@@ -36,7 +37,6 @@ public class SumDouble implements Runnable{
 					i = 0;
 				sum = sum + values[i];
 			}
-			System.out.println("sum = " + sum);
 		}
 
 		/**
