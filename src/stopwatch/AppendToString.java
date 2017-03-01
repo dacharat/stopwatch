@@ -1,6 +1,7 @@
-package stopwatch;
+package stopWatch;
 
 /**
+ * Append chars to a StringBuilder
  * 
  * @author Dacharat Pankong
  *
@@ -8,14 +9,18 @@ package stopwatch;
 public class AppendToString implements Runnable{
 
 		private int count;
+		
+		private String result;
 
 		/**
+		 * Initialize AppendStringBuilderTask with count.
 		 * 
 		 * @param count is how many time add the char.
 		 *           
 		 */
 		public AppendToString(int count) {
 			this.count = count;
+			this.result = "";
 		}
 
 		/**
@@ -30,7 +35,6 @@ public class AppendToString implements Runnable{
 			while (k++ < count) {
 				result = result + CHAR;
 			}
-			System.out.println("final string length = " + result.length());
 		}
 
 		/**
