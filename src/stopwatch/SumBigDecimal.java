@@ -1,4 +1,4 @@
-package stopwatch;
+package stopWatch;
 
 import java.math.BigDecimal;
 
@@ -40,10 +40,10 @@ public class SumBigDecimal implements Runnable {
 					i = 0;
 				sum = sum.add(values[i]);
 			}
-			System.out.println("sum = " + sum);
 		}
 
 		/**
+		 * 
 		 * @return the task
 		 */
 		public String toString() {
