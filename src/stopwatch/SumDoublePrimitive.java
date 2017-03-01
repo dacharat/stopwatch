@@ -1,5 +1,6 @@
-package stopwatch;
+package stopWatch;
 /**
+ * Add primitive double in array.
  * 
  * @author Dacharat Pankong
  *
@@ -38,7 +39,6 @@ public class SumDoublePrimitive implements Runnable{
 					i = 0; // reuse the array when get to last value
 				sum = sum + values[i];
 			}
-			System.out.println("sum = " + sum);
 
 		}
 
